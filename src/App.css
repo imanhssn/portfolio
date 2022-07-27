@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+body {
+    background: var(--color-bg)
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.app__bg {
+    background: scroll;
+    background-color: #F3CB4E;
+}
+
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+       
+
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}
+
+.gradient__dreams {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(245, 199, 81, 1) 53%, rgba(245, 81, 110, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(245, 199, 81, 1) 53%, rgba(245, 81, 110, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(245, 199, 81, 1) 53%, rgba(245, 81, 110, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5516E', endColorstr='#FFFF00', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(245, 199, 81, 1) 53%, rgba(245, 81, 110, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(245, 199, 81, 1) 53%, rgba(245, 81, 110, 1) 100%);
+
+}
+
+.gradient__digibank {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(93, 215, 98, 1) 0%, rgba(47, 181, 208, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(93, 215, 98, 1) 0%, rgba(47, 181, 208, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(93, 215, 98, 1) 0%, rgba(47, 181, 208, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2FB5D0', endColorstr='#5DD762', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(93, 215, 98, 1) 0%, rgba(47, 181, 208, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(93, 215, 98, 1) 0%, rgba(47, 181, 208, 1) 100%);
+
+}
+
+.gradient__cafebook {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(255, 61, 61, 1) 0%, rgba(249, 165, 222, 1) 41%, rgba(71, 255, 242, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(255, 61, 61, 1) 0%, rgba(249, 165, 222, 1) 41%, rgba(71, 255, 242, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(255, 61, 61, 1) 0%, rgba(249, 165, 222, 1) 41%, rgba(71, 255, 242, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47FFF2', endColorstr='#FF3D3D', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(255, 61, 61, 1) 0%, rgba(249, 165, 222, 1) 41%, rgba(71, 255, 242, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(255, 61, 61, 1) 0%, rgba(249, 165, 222, 1) 41%, rgba(71, 255, 242, 1) 100%);
+
+}
+
+.gradient__jadual {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(238, 130, 238, 1) 0%, rgba(0, 188, 212, 1) 71%, rgba(255, 206, 0, 1) 99%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(238, 130, 238, 1) 0%, rgba(0, 188, 212, 1) 71%, rgba(255, 206, 0, 1) 99%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(238, 130, 238, 1) 0%, rgba(0, 188, 212, 1) 71%, rgba(255, 206, 0, 1) 99%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFCE00', endColorstr='#ee82ee', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(238, 130, 238, 1) 0%, rgba(0, 188, 212, 1) 71%, rgba(255, 206, 0, 1) 99%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(238, 130, 238, 1) 0%, rgba(0, 188, 212, 1) 71%, rgba(255, 206, 0, 1) 99%);
+
+}

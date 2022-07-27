@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Josefin Sans', sans-serif;
+  --title-font: 'Cardo', serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #FAF9F6;
+  --color-footer : #FAF9F6;
+  --color-blog: #2E8B57;
+  --color-text: #1B1E23;
+  --color-subtext: #E27D60;
+}

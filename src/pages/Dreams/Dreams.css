@@ -1,0 +1,254 @@
+.portfolio__dreams {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__dreams-header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 8rem 10rem;
+}
+
+.portolio__dreams-header_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portolio__dreams-header_content h1 {
+    font-family: var(--title-font);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 75px;
+    letter-spacing: -0.1rem;
+}
+
+.portfolio__dreams-header_image {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__dreams-header_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio__dreams-info {
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.portfolio__dreams-info_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.portfolio__dreams-info_about {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.portfolio__dreams-info_problem,
+.portfolio__dreams-info_solution,
+.portfolio__dreams-info_empathy,
+.portfolio__dreams-info_design,
+.portfolio__dreams-info_mockup {
+    margin-top: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--color-text);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--color-text);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.portfolio__dreams-info_empathy-image {
+    padding: 1rem 2rem;
+    justify-content: center;
+}
+
+.portfolio__dreams-info_design-image{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.portfolio__dreams-info_mockup-image{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.portfolio__dreams-info_mobile-image {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.portfolio__dreams-info_mobile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__dreams-info_design-image img {
+    width: auto;
+    height: 300px;
+}
+
+.portfolio__dreams-info_mockup-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__dreams-info_empathy-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__dreams-info_test {
+    margin-top: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__dreams-info-insights {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio__dreams_info_insights1 {
+    padding-right: 1rem;
+}
+
+.portfolio__dreams_info_insights3 {
+    padding-left: 1.5rem;
+}
+
+p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--color-text);
+    text-align: justify;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--color-text);
+    padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__dreams-header {
+        flex-direction: column;
+        padding: 8rem 8rem 15rem 8rem;
+    }
+
+    .portfolio__dreams-info-insights {
+        flex-direction: column;
+    }
+
+    .portfolio__dreams_info_insights3 {
+        padding-left: 0rem;
+    }
+
+    
+    .portfolio__dreams-info_problem,
+    .portfolio__dreams-info_solution,
+    .portfolio__dreams-info_empathy,
+    .portfolio__dreams-info_design,
+    .portfolio__dreams-info_mockup,
+    .portfolio__dreams-info_test,
+    .portfolio__dreams-info_about {
+        margin-top: 3rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .portfolio__dreams-info_problem,
+    .portfolio__dreams-info_solution,
+    .portfolio__dreams-info_empathy,
+    .portfolio__dreams-info_design,
+    .portfolio__dreams-info_mockup,
+    .portfolio__dreams-info_test,
+    .portfolio__dreams-info_about {
+        margin-top: 3rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .portolio__dreams-header_content h1 {
+        font-family: var(--title-font);
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.1rem;
+    }
+
+    .portfolio__dreams-info_problem,
+    .portfolio__dreams-info_solution,
+    .portfolio__dreams-info_empathy,
+    .portfolio__dreams-info_design,
+    .portfolio__dreams-info_mockup,
+    .portfolio__dreams-info_test,
+    .portfolio__dreams-info_about {
+        margin-top: 3rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .portfolio__dreams-info_problem,
+    .portfolio__dreams-info_solution,
+    .portfolio__dreams-info_empathy,
+    .portfolio__dreams-info_design,
+    .portfolio__dreams-info_mockup,
+    .portfolio__dreams-info_test,
+    .portfolio__dreams-info_about {
+        margin-top: 3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}

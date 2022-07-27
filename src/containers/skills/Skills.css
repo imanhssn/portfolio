@@ -1,0 +1,67 @@
+.portfolio__skills {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__skills p {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.portfolio__skills-heading {
+    padding-top: 5rem;
+}
+
+.portfolio__skills-heading h1 {
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: -0.1rem;
+}
+
+.portfolio__skills-icon {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.portfolio__skills-icon img {
+    max-width: 50px;
+    max-height: auto;
+    margin: 2rem;
+}
+
+.portfolio__skills-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.portfolio__skills-container:hover{
+    margin-bottom: 0rem;
+}
+
+.portfolio__skills-container-content h2 {
+    align-items: flex-end;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .portfolio__skills-icon img {
+        max-width: 30px;
+        max-height: auto;
+        margin: 1rem;
+    }
+}
